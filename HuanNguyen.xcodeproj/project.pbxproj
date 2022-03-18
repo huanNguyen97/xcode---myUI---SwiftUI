@@ -15,6 +15,8 @@
 		027A227E27E34841003136C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027A227C27E34841003136C0 /* LaunchScreen.storyboard */; };
 		027A228927E34841003136C0 /* HuanNguyenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A228827E34841003136C0 /* HuanNguyenTests.swift */; };
 		027A229427E34841003136C0 /* HuanNguyenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A229327E34841003136C0 /* HuanNguyenUITests.swift */; };
+		02A09B7B27E423EF0036868F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A09B7A27E423EF0036868F /* Pacifico-Regular.ttf */; };
+		02A09B8027E43CE20036868F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A09B7F27E43CE20036868F /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		027A228F27E34841003136C0 /* HuanNguyenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuanNguyenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027A229327E34841003136C0 /* HuanNguyenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuanNguyenUITests.swift; sourceTree = "<group>"; };
 		027A229527E34841003136C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A09B7A27E423EF0036868F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		02A09B7F27E43CE20036868F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		027A227027E3483E003136C0 /* HuanNguyen */ = {
 			isa = PBXGroup;
 			children = (
+				02A09B7527E422120036868F /* fonts */,
 				027A227127E3483E003136C0 /* AppDelegate.swift */,
 				027A227327E3483E003136C0 /* SceneDelegate.swift */,
 				027A227527E3483E003136C0 /* ContentView.swift */,
@@ -106,6 +111,7 @@
 				027A227C27E34841003136C0 /* LaunchScreen.storyboard */,
 				027A227F27E34841003136C0 /* Info.plist */,
 				027A227927E34841003136C0 /* Preview Content */,
+				02A09B7F27E43CE20036868F /* InfoView.swift */,
 			);
 			path = HuanNguyen;
 			sourceTree = "<group>";
@@ -134,6 +140,14 @@
 				027A229527E34841003136C0 /* Info.plist */,
 			);
 			path = HuanNguyenUITests;
+			sourceTree = "<group>";
+		};
+		02A09B7527E422120036868F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				02A09B7A27E423EF0036868F /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				027A227E27E34841003136C0 /* LaunchScreen.storyboard in Resources */,
+				02A09B7B27E423EF0036868F /* Pacifico-Regular.ttf in Resources */,
 				027A227B27E34841003136C0 /* Preview Assets.xcassets in Resources */,
 				027A227827E34841003136C0 /* Assets.xcassets in Resources */,
 			);
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A09B8027E43CE20036868F /* InfoView.swift in Sources */,
 				027A227227E3483E003136C0 /* AppDelegate.swift in Sources */,
 				027A227427E3483E003136C0 /* SceneDelegate.swift in Sources */,
 				027A227627E3483E003136C0 /* ContentView.swift in Sources */,
